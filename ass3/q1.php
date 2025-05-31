@@ -1,6 +1,6 @@
 <?php
     $numbers = array(1, 2, 3);
-    foreach ($numbers as $i) {
+    foreach ($numbers as $i) 
         foreach ($numbers as $j) {
             echo $i . $j;
             echo "</br>";
@@ -15,4 +15,22 @@
             echo $odd;
             echo "</br>"; 
     }
+
+    $mixed_numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    foreach ($mixed_numbers as $mixed) {
+        if ($mixed % 2 == 0) {
+            echo $mixed . " is even";
+        } else {
+            echo $mixed . " is odd";
+        }
+        echo "</br>";
+    }
+    $names = array("Alice", "Bob", "Charlie");
+    foreach ($names as $name) {
+        echo $name;
+        echo "</br>";
+    }
+    
+
+
 ?>
