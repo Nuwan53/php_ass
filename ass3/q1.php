@@ -30,7 +30,11 @@
         echo $name;
         echo "</br>";
     }
-    
+    $countries = array("USA", "Canada", "Mexico");
+    foreach ($countries as $country) {
+        echo $country;
+        echo "</br>";
+    }   
 
 
 ?>
