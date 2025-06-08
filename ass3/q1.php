@@ -35,6 +35,11 @@
         echo $country;
         echo "</br>";
     }   
+    $employees = array("john","jane","doe");
+    foreach ($employees as $employee) {
+        echo $employee;
+        echo "</br>";
+    }
 
 
 ?>
