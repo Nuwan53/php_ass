@@ -38,8 +38,10 @@
     $employees = array("john","jane","doe");
     foreach ($employees as $employee) {
         echo $employee;
+        print_r($employee);
         echo "</br>";
     }
+
 
 
 ?>
