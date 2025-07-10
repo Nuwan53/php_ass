@@ -32,7 +32,8 @@ die("Inavlid query".mysqli_error($conn));
 }     
 
 mysqli_close($conn);
-
+//database creadted
+echo "Database and tables created successfully. <br>";
 ?>
 </body>
 </html>
